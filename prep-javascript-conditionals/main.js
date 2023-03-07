@@ -11,6 +11,7 @@ function isAdult(age) {
 
 console.log(isAdult(age));
 
+
 const student1Score = 80;
 
 function didStudentPass(score) {
@@ -22,6 +23,7 @@ function didStudentPass(score) {
 }
 
 console.log(didStudentPass(student1Score));
+
 
 const student2Score = 101;
 
@@ -46,6 +48,7 @@ console.log(gradeCalculator(student2Score));
 const season = 'spring';
 
 function seasonManager(season) {
+
   if (season === 'summer') {
     return 'it\'s hot today';
   } else if (season === 'spring') {
@@ -59,7 +62,10 @@ function seasonManager(season) {
   }
 }
 
+
 console.log(seasonManager(season));
+
+console.log(seasonMessenger(season));
 
 const dayOfTheWeek = 'thursday';
 
