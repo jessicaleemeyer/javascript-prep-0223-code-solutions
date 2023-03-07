@@ -1,5 +1,6 @@
 /* Your JS goes in this file */
 const age = 32;
+
 function isAdult(age) {
   if (age < 18) {
     return false;
@@ -10,7 +11,8 @@ function isAdult(age) {
 
 console.log(isAdult(age));
 
-const student1Score = 33;
+
+const student1Score = 80;
 
 function didStudentPass(score) {
   if (score >= 70) {
@@ -22,7 +24,8 @@ function didStudentPass(score) {
 
 console.log(didStudentPass(student1Score));
 
-const student2Score = 99;
+
+const student2Score = 101;
 
 function gradeCalculator(score) {
   if (score < 60) {
@@ -44,7 +47,8 @@ console.log(gradeCalculator(student2Score));
 
 const season = 'spring';
 
-function seasonMessenger(season) {
+function seasonManager(season) {
+
   if (season === 'summer') {
     return 'it\'s hot today';
   } else if (season === 'spring') {
@@ -57,6 +61,9 @@ function seasonMessenger(season) {
     return 'please enter a valid season';
   }
 }
+
+
+console.log(seasonManager(season));
 
 console.log(seasonMessenger(season));
 
